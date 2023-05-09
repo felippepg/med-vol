@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 import med.voll.api.endereco.Endereco;
 
 @Entity
-@Table(name = "medico")
+@Table(name = "medicos")
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
@@ -25,4 +25,13 @@ public class Medico {
 
     @Embedded // insere os atributos na classe Endereço na mesma tabela de Medico
     private Endereco endereco;
+
+    public Medico(DadosCadastroMedico dados) {
+        this.nome = dados.nome();
+        this.email = dados.email();
+        this.telefone = dados.telefone();
+        this.CRM = dados.CRM();
+        this.especialidade = dados.especialidade();
+        this.endereco = new Endereco(dados.endereco());
+    }
 }

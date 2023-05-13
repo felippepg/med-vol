@@ -15,4 +15,5 @@ Se trata de uma API Rest desenvolvida para um sistema hospitalar feito no curso 
 =
 - Uso de Records
 - Utilização do Flyway
+- Utilização do Padrão DTO
 

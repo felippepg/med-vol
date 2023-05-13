@@ -21,10 +21,10 @@ public class Medico {
     private String email;
     private String telefone;
     private String CRM;
+    @Enumerated(EnumType.STRING)
     private Especialidade especialidade;
     private Boolean ativo;
 
-    @Enumerated(EnumType.STRING)
     @Embedded // insere os atributos na classe Endereço na mesma tabela de Medico
     private Endereco endereco;
 

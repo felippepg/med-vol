@@ -22,12 +22,14 @@ public class Medico {
     private String telefone;
     private String CRM;
     private Especialidade especialidade;
+    private Boolean ativo;
 
     @Enumerated(EnumType.STRING)
     @Embedded // insere os atributos na classe Endereço na mesma tabela de Medico
     private Endereco endereco;
 
     public Medico(DadosCadastroMedico dados) {
+        this.ativo = true;
         this.nome = dados.nome();
         this.email = dados.email();
         this.telefone = dados.telefone();
@@ -46,5 +48,9 @@ public class Medico {
         if(dados.endereco() != null) {
             this.endereco.atualizarDadosEndereco(dados.endereco());
         }
+    }
+
+    public void inativar() {
+        this.ativo = false;
     }
 }

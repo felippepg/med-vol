@@ -21,4 +21,5 @@ O projeto se trata de uma API Rest desenvolvida para um sistema hospitalar feito
 - Paginação e ordenação de registros com o Spring
 - Tratamento de erros com Spring
 - Funcionamento do Spring Security
+- Implementar o processo de autenticação na API, de maneira Stateless, utilizando as classes e configurações do Spring Security.
 

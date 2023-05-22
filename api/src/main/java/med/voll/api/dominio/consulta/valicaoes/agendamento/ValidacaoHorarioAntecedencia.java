@@ -1,11 +1,11 @@
-package med.voll.api.dominio.consulta.valicaoes;
+package med.voll.api.dominio.consulta.valicaoes.agendamento;
 
 import med.voll.api.dominio.consulta.DadosAgendamentoConsulta;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
 
-public class ValidacaoHorarioAntecedencia implements ValidacoesAgendamentoConsultas {
+public class ValidacaoHorarioAntecedencia implements ValidacoesAgendarConsultas {
     @Override
     public void validar(DadosAgendamentoConsulta dados) {
         var dataConsulta = dados.data();

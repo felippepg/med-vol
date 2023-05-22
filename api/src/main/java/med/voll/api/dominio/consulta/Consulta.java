@@ -32,4 +32,12 @@ public class Consulta {
 
     @Future
     private LocalDateTime data;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "motivo_cancelamento")
+    private Motivo motivo;
+
+    public void cancelar(Motivo motivo) {
+        this.motivo = motivo;
+    }
 }

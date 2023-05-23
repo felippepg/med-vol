@@ -10,6 +10,7 @@ O projeto se trata de uma API Rest desenvolvida para um sistema hospitalar feito
 - Java
 - Flyway
 - Spring Boot
+- SpringDoc
 - Mysql 
 - JWT
 
@@ -23,4 +24,5 @@ O projeto se trata de uma API Rest desenvolvida para um sistema hospitalar feito
 - Funcionamento do Spring Security
 - Implementar o processo de autenticação na API, de maneira Stateless, utilizando as classes e configurações do Spring Security.
 - Como utilizar JWT
+- Como documentar uma API 
 

@@ -25,4 +25,5 @@ O projeto se trata de uma API Rest desenvolvida para um sistema hospitalar feito
 - Implementar o processo de autenticação na API, de maneira Stateless, utilizando as classes e configurações do Spring Security.
 - Como utilizar JWT
 - Como documentar uma API 
+- Realizar testes em um projeto Spring
 

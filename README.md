@@ -3,8 +3,8 @@
 O projeto se trata de uma API Rest desenvolvida para um sistema hospitalar feito no curso da Alura sobre Spring Boot
 
 
-🚧 Projeto em desenvolvimento...
-=
+
+
 🔨 Ferramentas
 =
 - Java
